@@ -1,0 +1,23 @@
+{
+  "name": "sdr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "rtlamr -format=json -msgtype=scm -filterid=47651636 | babel-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "babel-plugin-resolver": "^1.1.0",
+    "date-fns": "^1.29.0",
+    "lodash": "^4.17.5",
+    "mongodb": "^3.0.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
